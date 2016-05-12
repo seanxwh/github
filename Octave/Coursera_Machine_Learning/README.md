@@ -1,5 +1,5 @@
 #Coursera Machine Learning 
-This are the homework assignments and soultions for the Andrew Ng's Machine Learning in Coursera <br />
+These are the homework assignments and soultions for the Andrew Ng's Machine Learning in Coursera <br />
 Assignments List <br />
 Ex1: Linear Regression 100% <br />
 Ex2: Logistic Regression 100% <br />
