@@ -1,8 +1,12 @@
+//print number from 1 to 100, print 'Fizz' is number can be divided by 3,'Buzz' if can be divided by 5 
+// and 'FizzBuzz' if number can be divided by both 3 and 5 
+
 const concatString = (prevString,strings)=>prevString.concat(strings);
 
 const checkDivisible = (num, divisor) => (num%divisor==0);
 
-// the reducer function that call the checking function(checkFn) with current iterating number and divisor (currentKey) from the conditions. If the checking function satisfy, then call the modification function
+// the reducer function that call the checking function(checkFn) with current iterating number and 
+//divisor (currentKey) from the conditions. If the checking function satisfy, then call the modification function
 const reduceFn = (previousContent, currentKey, obj, number, checkFn = checkDivisible ,modFn = concatString)=>{
   let keyToNum = Number(currentKey);
   let currentContent = previousContent;
