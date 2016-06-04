@@ -8,15 +8,15 @@ https://spamassassin.apache.org/publiccorpus/ </br>
 a copy of data is downloaded under the 'learning_set/' directory </br>
   
 - the classifier will fisrt build a dictionary using the common daily words from </br>
-http://www.wordfrequency.info<//br>
+http://www.wordfrequency.info</br>
 
--then stamp each of the dataset(spam or ham) with the dictionary(i.e create a dictionary vector for each training set)</br>
+- stamp each of the dataset(spam or ham) with the dictionary(i.e create a dictionary vector for each training set)</br>
 
--by runing linear kennel SVM on the training, validation, and test set of the data, we can get a ~97% accuracy in test set</br>
+- run linear kennel SVM on the training, validation, and test set of the data, we can get a ~97% accuracy in test set</br>
 
--one can also input email content into the classifier, and let the classifier predict the type </br>
+- one can also input email content into the classifier, and let the classifier predict the type </br>
 
--the classifier will store the user input data for future training</br>
+- the classifier will store the user input data for future training</br>
 
 
 
