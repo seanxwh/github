@@ -9,6 +9,7 @@ a copy of data is downloaded under the 'learning_set/' directory </br>
   
 - the classifier will fisrt build a dictionary using the common daily words from </br>
 http://www.wordfrequency.info</br>
+the list of common daily words for the classifier is '4000_words.txt' in directory 
 
 - stamp each of the dataset(spam or ham) with the dictionary(i.e create a dictionary vector for each training set)</br>
 
@@ -19,4 +20,5 @@ http://www.wordfrequency.info</br>
 - the classifier will store the user input data for future training</br>
 
 
+run the program in matlab/octave, excute 'excution' under the current directory
 
