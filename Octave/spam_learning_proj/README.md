@@ -20,5 +20,5 @@ the list of common daily words for the classifier is '4000_words.txt' in directo
 - the classifier will store the user input data for future training</br>
 
 
-To run the program in matlab/octave run 'excution' under the current directory
+To run the program in matlab/octave, excute 'excution' under the current directory
 
