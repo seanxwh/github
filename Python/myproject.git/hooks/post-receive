@@ -1,0 +1,2 @@
+#!/bin/sh
+git --work-tree=/home/robot/myproject --git-dir=/home/robot/myproject.git checkout -f
