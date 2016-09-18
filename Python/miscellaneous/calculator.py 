@@ -1,0 +1,107 @@
+#!/usr/bin/env python
+
+import sys
+
+class Calculator(object):
+    def __init__(self):
+        # define all the arithmetic operations
+        self.op = {
+            "*" : lambda x,y: x*y,
+            "/" : lambda x,y: x/y,
+            "+" : lambda x,y: x+y,
+            "-" : lambda x,y: x-y
+        }
+        self.dic = {} # used to store the value of a variable (e.g: {a: '7', b: '4'})
+        self.dic_cnt = {} # used to store the assignment of a variable (e.g: a: 'b + 3'<-'a = b+3')
+
+
+    def ParenthesesIdx(self, input_str):
+        beginP = [idx for idx in range(len(input_str)) if input_str[idx]=="("]
+        endP = [idx for idx in range(len(input_str)) if input_str[idx]==")"]
+        return (beginP,endP)
+
+
+    def performOp(self, symb, eqn):
+        while symb in eqn:
+            for idx, chr in enumerate(eqn):
+                if chr == symb:
+                    tmp = self.op[chr](float(eqn[idx-1]),float(eqn[idx+1]))
+                    eqn[idx-1] = str(tmp)
+                    del eqn[idx:idx+2]
+        return eqn
+
+
+    def calc(self, input_str):
+        (beginP,endP) = self.ParenthesesIdx(input_str)
+        # perform operation within parentheses first
+        while len(beginP)!=0 and len(endP)!=0:
+            # first closing parenthese (FCP) should match the last open parenthese that on the left of FCP
+            bp = [itm for itm in beginP if itm<endP[0]]
+            subStr = input_str[bp[-1]+1:endP[0]]
+            input_str = input_str[:bp[-1]]+self.calc(subStr)+input_str[endP[0]+1:]
+            (beginP,endP) = self.ParenthesesIdx(input_str)
+
+        eqn1 = input_str.split(" ")
+        eqn = filter(lambda x: x!= '', eqn1)
+        # perform basic arithmetic op
+        while len(eqn) != 1:
+            ops = ["*","/","+","-"]
+            for op in ops:
+                eqn = self.performOp(op,eqn)
+        return eqn[0]
+
+
+    def evalVariable(self, var, eva_str):
+        eva_ary = eva_str.split()
+        new_eva_str = eva_str
+        for idx, itm in enumerate(eva_ary):
+            # evaluate if sub variables are needed to evaluate a variable (e.g: 'a = b + 4')
+            if itm in self.dic:
+                # if sub variable already been calculated, replace the sub variable with its value,
+                # otherwise, evaluate the sub variable by using recursion and replace afterward
+                eva_ary[idx] = self.dic[itm] if self.dic[itm] else self.evalVariable(itm, self.dic_cnt[itm])
+                new_eva_str = new_eva_str.replace(itm, eva_ary[idx])
+        self.dic[var] = self.calc(new_eva_str) # Memorization, prevent recal
+        return self.dic[var]
+
+
+    def calc_with_vars(self, input_list):
+        last_key = None
+        last_cnt = None
+        # build dictionary to record every variable in the list
+        for idx, asgm_str in enumerate(input_list):
+            ary = asgm_str.split(" = ") #'a = 3 + x' -> ary [ 'a', '3 + x']
+            if ary[0] not in self.dic:
+                self.dic[ary[0]] = None
+                self.dic_cnt[ary[0]] = ary[1]
+            if idx == len(input_list)-1:
+                last_key = ary[0]
+                last_cnt = ary[1]
+        # assume we want the value of the last variable of the list
+        return self.evalVariable(last_key, last_cnt)
+
+
+
+def main(argv):
+    calculator = Calculator()
+
+    print "First Step"
+    print calculator.calc("3 + 4 * 5 / 7")
+
+    print "\nSecond Step"
+    print calculator.calc("( 3 + 4 ) * 5 / 7")
+    print calculator.calc("((3 + 4) + 6) * (5 + 2) / 7")
+
+    print "\nThird Step"
+    print calculator.calc_with_vars(
+        ["pi = 3",
+         "pizza = 9 * 9 * pi"])
+    print calculator.calc_with_vars(
+        [
+        "pi = 3 * xi",
+        "xi = 1",
+        "pizza = 9 * ( 9 + pi ) * pi"])
+
+if __name__ == '__main__':
+    sys.exit(main(sys.argv[1:]))
+main(None)
