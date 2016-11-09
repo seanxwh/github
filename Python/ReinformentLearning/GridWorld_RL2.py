@@ -208,7 +208,6 @@ class ModelBasedReinforcementLearning(object):
         return self.Update_Two_Dim_Simulation(result)
 
     def Value_Iteration(self,parameters):
-        k =100
         (new_states_value, prev_states_value, states, actions_prob, transition_prob, rewards, discount, next_states) = parameters
         while True:
             delta = 0
