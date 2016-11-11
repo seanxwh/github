@@ -810,15 +810,19 @@ plotting.plot_value_function(v, title="Optimal Value Function")
 ![png](output_13_1.png)
 
 
-### SARSA($\lambda$)
+### Online learning 
+#### SARSA($\lambda$) and Q Learning 
 
 
 ```python
 from collections import defaultdict 
 import operator 
 import bisect
-
-class ModelFreeControl(object):
+"""
+ModelFreeOnlineControl means the update at every time step, for the current step(TD(0) and Q) or
+for the current and previous steps TD(λ) 
+"""
+class ModelFreeOnlineControl(object):
     def __init__(self, iteration, lambda_val=1, discount_rate = 1 , learning_rate = 1, simulation = start_black_jack_simulation, exploration_rate = 0.1):
         self.iteration = iteration
         self.simulation = simulation
@@ -862,11 +866,12 @@ class ModelFreeControl(object):
         return states_actions_value
             
     
-    
-    # on policy learning (Q(S, A) ← Q(S, A) + α(R + γQ(S′, A′) − Q(S, A)) <-> SARSA), Learn about policy π from experience sampled from π
-    # two type SARSA: 
-    # 1. not use eligibility trace-> within a episode, each time step(state) update only the Q value(state-action value) of current time step(state)  
-    # 2. use eligibility trace-> within a episode, each time step(state) update the current Q value, and the previous time steps' Q value using eligibility trace
+    """
+     on policy learning (Q(S, A) ← Q(S, A) + α(R + γQ(S′, A′) − Q(S, A)) <-> SARSA), Learn about policy π from experience sampled from π
+     two type SARSA: 
+     1. not use eligibility trace-> within a episode, each time step(state) update only the Q value(state-action value) of current time step(state)  
+     2. use eligibility trace-> within a episode, each time step(state) update the current Q value, and the previous time steps' Q value using eligibility trace
+    """
     def _SARSA_simulate_states_action_from_current_epo(self,sim,
                                                  observed_state,
                                                  action,done,
@@ -936,7 +941,10 @@ class ModelFreeControl(object):
 
         return states_actions_value
     
-    # off policy learning (Q(S,A)← Q(S,A)+α (R+γ maxQ(S′,a′)−Q(S,A))),Learn about policy π from experience sampled from μ(previous exp)
+    """
+    off policy learning (Q(S,A)← Q(S,A)+α (R+γ maxQ(S′,a′)−Q(S,A))),Learn about policy π from experience sampled from μ(previous exp)
+    update the state online(every time step) 
+    """
     def _Q_learning_simulate_states_action_from_current_epo(self,sim,
                                                             observed_state,
                                                             available_actions,
@@ -987,13 +995,13 @@ class ModelFreeControl(object):
 
 
 ```python
-res2 = ModelFreeControl(5000000)
+res2 = ModelFreeOnlineControl(5000000)
 res2 = res2.start_SARSA()
 ```
 
 
 ```python
-res3 = ModelFreeControl(5000000)
+res3 = ModelFreeOnlineControl(5000000)
 res3 = res3.start_Q_learning()
 ```
 
@@ -1021,7 +1029,7 @@ err_mc_vs_TD = {}
 sum_val = 0 
 for itm in res1.items():
     state, val = itm
-    err_mc_vs_TD[state] = (max(val.iteritems(), key=operator.itemgetter(1))[0] - max(res2[state].iteritems(), key=operator.itemgetter(1))[0])
+    err_mc_vs_TD[state] = (max(val.iteritems(), key=operator.itemgetter(1))[1] - max(res2[state].iteritems(), key=operator.itemgetter(1))[1])
 plotting.plot_value_function(err, title="mc vs TD err")
 ```
 
@@ -1057,7 +1065,7 @@ err_MC_vs_Q = {}
 sum_val = 0 
 for itm in res1.items():
     state, val = itm
-    err_MC_vs_Q[state] = (max(val.iteritems(), key=operator.itemgetter(1))[0] - max(res3[state].iteritems(), key=operator.itemgetter(1))[0])
+    err_MC_vs_Q[state] = (max(val.iteritems(), key=operator.itemgetter(1))[1] - max(res3[state].iteritems(), key=operator.itemgetter(1))[1])
 plotting.plot_value_function(err, title="mc vs TD err")
 ```
 
