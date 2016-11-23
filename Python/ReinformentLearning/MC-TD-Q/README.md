@@ -173,405 +173,405 @@ for epi in range(200):
 
 ```
 
-     player hand [10, 9, 10], dealer hand [10, 6] , player reward -1 
+     player hand [6, 4, 10], dealer hand [5, 2, 2, 10] , player reward 1 
     
-     player hand [2, 6, 10, 4], dealer hand [10, 10] , player reward -1 
+     player hand [2, 4, 1, 10, 8], dealer hand [2, 2] , player reward -1 
     
-     player hand [10, 10], dealer hand [10, 1] , player reward -1 
+     player hand [9, 3, 4, 2, 3], dealer hand [10, 5, 9] , player reward 1 
     
-     player hand [5, 6, 2, 4, 5], dealer hand [10, 10] , player reward -1 
+     player hand [9, 10, 4], dealer hand [6, 10] , player reward -1 
     
-     player hand [10, 6, 10], dealer hand [10, 4] , player reward -1 
+     player hand [7, 2, 3, 10], dealer hand [1, 3] , player reward -1 
     
-     player hand [7, 1, 3], dealer hand [10, 4, 9] , player reward 1 
+     player hand [10, 2, 1, 4, 10], dealer hand [4, 10] , player reward -1 
     
-     player hand [10, 2, 10], dealer hand [1, 10] , player reward -1 
+     player hand [10, 6, 6], dealer hand [2, 10] , player reward -1 
     
-     player hand [10, 6, 6], dealer hand [10, 10] , player reward -1 
+     player hand [5, 4, 6, 8], dealer hand [2, 7] , player reward -1 
     
-     player hand [5, 10, 7], dealer hand [6, 4] , player reward -1 
+     player hand [3, 10, 5, 4], dealer hand [10, 5] , player reward -1 
     
-     player hand [10, 1], dealer hand [4, 10, 3, 8] , player reward 1 
+     player hand [6, 5, 2, 10], dealer hand [7, 7] , player reward -1 
     
-     player hand [1, 9], dealer hand [10, 2, 10] , player reward 1 
+     player hand [2, 10, 10], dealer hand [1, 5] , player reward -1 
     
-     player hand [9, 3, 2, 7], dealer hand [10, 3, 10] , player reward 1 
+     player hand [7, 5, 8], dealer hand [10, 8] , player reward 1 
     
-     player hand [10, 10], dealer hand [6, 6, 2, 8] , player reward 1 
+     player hand [8, 5, 2, 5], dealer hand [4, 9, 7] , player reward 0 
     
      player hand [3, 10, 10], dealer hand [1, 8] , player reward -1 
     
-     player hand [10, 9, 10], dealer hand [2, 5] , player reward -1 
+     player hand [1, 9], dealer hand [2, 4, 9, 9] , player reward 1 
     
-     player hand [10, 3, 10], dealer hand [7, 9] , player reward -1 
+     player hand [10, 10], dealer hand [6, 3, 8, 10] , player reward 1 
     
-     player hand [10, 4, 10], dealer hand [5, 2] , player reward -1 
+     player hand [3, 2, 9, 2, 4], dealer hand [7, 10, 3] , player reward 0 
     
-     player hand [10, 10], dealer hand [10, 10] , player reward 0 
+     player hand [8, 6, 10], dealer hand [10, 6] , player reward -1 
     
-     player hand [1, 8, 10, 8], dealer hand [10, 6] , player reward -1 
+     player hand [10, 10], dealer hand [8, 1] , player reward 1 
     
-     player hand [6, 8, 3, 8], dealer hand [9, 3] , player reward -1 
+     player hand [7, 6, 2, 9], dealer hand [9, 5] , player reward -1 
     
-     player hand [4, 4, 10, 4], dealer hand [5, 6] , player reward -1 
+     player hand [9, 2, 10], dealer hand [1, 4, 5] , player reward 1 
     
-     player hand [5, 10, 6], dealer hand [10, 1] , player reward 0 
+     player hand [2, 7, 10, 4], dealer hand [7, 10] , player reward -1 
     
-     player hand [10, 6, 10], dealer hand [1, 8] , player reward -1 
+     player hand [10, 10], dealer hand [5, 9, 7] , player reward -1 
     
-     player hand [9, 10, 3], dealer hand [6, 6] , player reward -1 
+     player hand [3, 10, 4, 8], dealer hand [9, 3] , player reward -1 
     
-     player hand [3, 10, 2, 4, 3], dealer hand [3, 10] , player reward -1 
+     player hand [9, 1], dealer hand [10, 10] , player reward 0 
     
-     player hand [10, 10], dealer hand [10, 1] , player reward -1 
+     player hand [1, 4, 10, 5], dealer hand [5, 7, 8] , player reward 0 
     
-     player hand [10, 1], dealer hand [10, 5, 7] , player reward 1 
+     player hand [4, 1, 4, 10, 8], dealer hand [8, 7] , player reward -1 
     
-     player hand [10, 1], dealer hand [8, 1] , player reward 1 
+     player hand [5, 10, 3, 2], dealer hand [1, 2, 3, 7, 10] , player reward 1 
     
-     player hand [10, 9, 9], dealer hand [5, 5] , player reward -1 
+     player hand [3, 10, 10], dealer hand [4, 6] , player reward -1 
     
-     player hand [6, 7, 6, 10], dealer hand [6, 10] , player reward -1 
+     player hand [10, 6, 10], dealer hand [7, 1] , player reward -1 
     
-     player hand [10, 10], dealer hand [1, 9] , player reward 0 
+     player hand [1, 7, 3], dealer hand [1, 2, 3, 3] , player reward 1 
     
-     player hand [9, 10, 2], dealer hand [8, 8, 5] , player reward 0 
+     player hand [9, 1], dealer hand [2, 4, 2, 10] , player reward 1 
     
-     player hand [10, 8, 10], dealer hand [2, 10] , player reward -1 
+     player hand [2, 4, 7, 6, 10], dealer hand [7, 1] , player reward -1 
     
-     player hand [5, 2, 3, 9, 5], dealer hand [4, 10] , player reward -1 
+     player hand [5, 4, 4, 10], dealer hand [4, 10] , player reward -1 
     
-     player hand [10, 6, 9], dealer hand [10, 10] , player reward -1 
+     player hand [5, 4, 10, 9], dealer hand [9, 10] , player reward -1 
     
-     player hand [7, 7, 1, 1, 6], dealer hand [9, 5] , player reward -1 
+     player hand [10, 1], dealer hand [3, 10, 1, 10] , player reward 1 
     
-     player hand [5, 10, 8], dealer hand [4, 3] , player reward -1 
+     player hand [4, 10, 2, 5], dealer hand [7, 10, 4] , player reward 0 
     
-     player hand [10, 9, 5], dealer hand [10, 10] , player reward -1 
+     player hand [10, 1], dealer hand [3, 1, 6] , player reward 1 
     
-     player hand [1, 3, 10, 1, 7], dealer hand [10, 6] , player reward -1 
+     player hand [9, 1], dealer hand [10, 10] , player reward 0 
     
-     player hand [2, 4, 9, 10], dealer hand [9, 7] , player reward -1 
+     player hand [10, 8, 3], dealer hand [10, 6, 10] , player reward 1 
     
-     player hand [10, 7, 8], dealer hand [4, 2] , player reward -1 
+     player hand [6, 4, 8, 10], dealer hand [10, 4] , player reward -1 
     
-     player hand [1, 10], dealer hand [10, 7, 10] , player reward 1 
+     player hand [10, 10], dealer hand [10, 3, 1, 9] , player reward 1 
     
-     player hand [1, 5, 10, 3, 3], dealer hand [1, 4] , player reward -1 
+     player hand [7, 6, 5, 5], dealer hand [10, 10] , player reward -1 
     
-     player hand [3, 10, 3, 5], dealer hand [10, 10] , player reward 1 
+     player hand [9, 1], dealer hand [2, 8, 1] , player reward -1 
     
-     player hand [1, 10], dealer hand [3, 10, 1, 9] , player reward 1 
+     player hand [9, 7, 10], dealer hand [9, 2] , player reward -1 
     
-     player hand [3, 8, 10], dealer hand [3, 8, 10] , player reward 0 
+     player hand [10, 2, 7, 10], dealer hand [5, 2] , player reward -1 
     
-     player hand [2, 7, 10, 10], dealer hand [4, 8] , player reward -1 
+     player hand [10, 6, 7], dealer hand [4, 10] , player reward -1 
     
-     player hand [10, 8, 10], dealer hand [9, 4] , player reward -1 
+     player hand [3, 2, 7, 10], dealer hand [9, 2] , player reward -1 
     
-     player hand [5, 10, 6], dealer hand [7, 6, 10] , player reward 1 
+     player hand [10, 4, 7], dealer hand [1, 10] , player reward 0 
     
-     player hand [4, 5, 3, 9], dealer hand [9, 7, 4] , player reward 1 
+     player hand [6, 5, 2, 1, 4, 10], dealer hand [5, 6] , player reward -1 
     
-     player hand [10, 1], dealer hand [1, 1, 10, 3, 10] , player reward 1 
+     player hand [10, 10], dealer hand [7, 10, 2] , player reward 1 
     
-     player hand [10, 4, 9], dealer hand [10, 7] , player reward -1 
+     player hand [10, 4, 4, 10], dealer hand [10, 5] , player reward -1 
     
-     player hand [10, 8, 10], dealer hand [1, 10] , player reward -1 
+     player hand [2, 5, 10, 8], dealer hand [10, 4] , player reward -1 
     
-     player hand [6, 10, 7], dealer hand [3, 7] , player reward -1 
+     player hand [7, 8, 9], dealer hand [1, 10] , player reward -1 
     
-     player hand [3, 10, 10], dealer hand [3, 6] , player reward -1 
+     player hand [2, 10, 10], dealer hand [1, 3] , player reward -1 
     
-     player hand [2, 10, 2, 10], dealer hand [5, 10] , player reward -1 
+     player hand [9, 4, 4, 10], dealer hand [10, 2] , player reward -1 
     
-     player hand [4, 10, 10], dealer hand [2, 1] , player reward -1 
+     player hand [7, 10, 10], dealer hand [3, 5] , player reward -1 
     
-     player hand [5, 10, 5], dealer hand [3, 6, 7, 9] , player reward 1 
+     player hand [10, 3, 6, 10], dealer hand [4, 6] , player reward -1 
     
-     player hand [10, 10], dealer hand [3, 5, 10] , player reward 1 
+     player hand [10, 1], dealer hand [5, 10, 10] , player reward 1 
     
-     player hand [10, 7, 7], dealer hand [4, 10] , player reward -1 
+     player hand [3, 3, 10, 5], dealer hand [1, 9] , player reward 1 
     
-     player hand [10, 10], dealer hand [9, 1] , player reward 0 
+     player hand [1, 5, 8, 10], dealer hand [10, 10] , player reward -1 
     
-     player hand [9, 6, 4, 9], dealer hand [3, 10] , player reward -1 
+     player hand [8, 10, 5], dealer hand [10, 2] , player reward -1 
     
-     player hand [1, 10], dealer hand [5, 5, 10] , player reward 1 
+     player hand [10, 10], dealer hand [10, 5, 7] , player reward 1 
     
-     player hand [8, 10, 3], dealer hand [9, 1] , player reward 1 
+     player hand [8, 10, 10], dealer hand [10, 8] , player reward -1 
     
-     player hand [10, 8, 3], dealer hand [10, 10] , player reward 1 
+     player hand [3, 3, 6, 6, 3], dealer hand [2, 9, 10] , player reward 0 
     
-     player hand [2, 10, 8], dealer hand [2, 5, 4, 6, 9] , player reward 1 
+     player hand [7, 6, 4, 7], dealer hand [10, 9] , player reward -1 
     
-     player hand [9, 1], dealer hand [5, 10, 10] , player reward 1 
+     player hand [3, 10, 3, 10], dealer hand [10, 6] , player reward -1 
     
-     player hand [9, 10, 9], dealer hand [1, 10] , player reward -1 
+     player hand [10, 7, 10], dealer hand [1, 7] , player reward -1 
     
-     player hand [6, 10, 9], dealer hand [2, 4] , player reward -1 
+     player hand [10, 2, 4, 10], dealer hand [2, 5] , player reward -1 
     
-     player hand [4, 4, 7, 9], dealer hand [10, 4] , player reward -1 
+     player hand [10, 10], dealer hand [4, 3, 5, 9] , player reward -1 
     
-     player hand [10, 3, 3, 2, 9], dealer hand [4, 7] , player reward -1 
+     player hand [10, 5, 1, 8], dealer hand [9, 5] , player reward -1 
     
-     player hand [5, 7, 3, 10], dealer hand [1, 7] , player reward -1 
+     player hand [10, 6, 10], dealer hand [10, 1] , player reward -1 
     
-     player hand [1, 5, 10, 9], dealer hand [6, 5] , player reward -1 
+     player hand [3, 1, 9, 5, 4], dealer hand [10, 8] , player reward -1 
     
-     player hand [3, 10, 4, 7], dealer hand [1, 8] , player reward -1 
+     player hand [10, 9, 9], dealer hand [2, 7] , player reward -1 
     
-     player hand [1, 3, 6], dealer hand [10, 9] , player reward 1 
+     player hand [7, 7, 3, 10], dealer hand [10, 8] , player reward -1 
     
-     player hand [6, 10, 7], dealer hand [10, 9] , player reward -1 
+     player hand [8, 5, 4, 4], dealer hand [4, 10, 2, 2] , player reward 1 
     
-     player hand [9, 4, 10], dealer hand [10, 7] , player reward -1 
+     player hand [7, 9, 9], dealer hand [10, 3] , player reward -1 
     
-     player hand [7, 10, 10], dealer hand [10, 4] , player reward -1 
+     player hand [10, 1], dealer hand [8, 10] , player reward 1 
     
-     player hand [1, 9], dealer hand [6, 6, 3, 8] , player reward 1 
+     player hand [2, 1, 5, 5, 3, 4], dealer hand [6, 10, 6] , player reward 1 
     
-     player hand [7, 6, 4, 10], dealer hand [6, 2] , player reward -1 
+     player hand [10, 4, 9], dealer hand [4, 2] , player reward -1 
     
-     player hand [6, 2, 1, 2], dealer hand [4, 3, 3, 10] , player reward 1 
+     player hand [4, 10, 3, 5], dealer hand [2, 4] , player reward -1 
     
-     player hand [10, 1], dealer hand [9, 9] , player reward 1 
+     player hand [7, 10, 9], dealer hand [10, 10] , player reward -1 
     
-     player hand [3, 9, 4, 10], dealer hand [10, 10] , player reward -1 
+     player hand [4, 1, 10, 10], dealer hand [9, 5] , player reward -1 
     
-     player hand [5, 1, 10, 4], dealer hand [6, 3, 9] , player reward 1 
+     player hand [3, 10, 5, 10], dealer hand [4, 10] , player reward -1 
     
-     player hand [10, 6, 5], dealer hand [7, 7, 10] , player reward 1 
+     player hand [8, 10, 7], dealer hand [5, 6] , player reward -1 
     
-     player hand [10, 6, 1, 6], dealer hand [10, 7] , player reward -1 
+     player hand [2, 8, 3, 3, 10], dealer hand [5, 6] , player reward -1 
     
-     player hand [2, 7, 10, 10], dealer hand [9, 8] , player reward -1 
+     player hand [6, 4, 10], dealer hand [1, 10] , player reward -1 
     
-     player hand [4, 10, 2, 7], dealer hand [10, 10] , player reward -1 
+     player hand [4, 3, 8, 9], dealer hand [9, 10] , player reward -1 
     
-     player hand [10, 10], dealer hand [10, 3, 8] , player reward -1 
+     player hand [10, 10], dealer hand [1, 2, 3, 2] , player reward 1 
     
-     player hand [7, 10, 6], dealer hand [4, 7] , player reward -1 
+     player hand [7, 4, 9], dealer hand [5, 4, 7, 7] , player reward 1 
     
-     player hand [8, 2, 5, 8], dealer hand [10, 5] , player reward -1 
+     player hand [2, 7, 2, 1, 10], dealer hand [4, 8] , player reward -1 
     
-     player hand [2, 8, 7, 10], dealer hand [7, 3] , player reward -1 
+     player hand [5, 4, 10, 10], dealer hand [4, 3] , player reward -1 
     
-     player hand [10, 7, 1, 4], dealer hand [10, 10] , player reward -1 
+     player hand [8, 6, 6], dealer hand [3, 7, 7, 8] , player reward 1 
     
-     player hand [10, 10], dealer hand [6, 2, 10] , player reward 1 
+     player hand [2, 2, 4, 6, 10], dealer hand [3, 4] , player reward -1 
     
-     player hand [10, 9, 3], dealer hand [1, 2] , player reward -1 
+     player hand [9, 10, 3], dealer hand [1, 3] , player reward -1 
     
-     player hand [10, 6, 1, 5], dealer hand [9, 6] , player reward -1 
+     player hand [6, 7, 8], dealer hand [4, 10, 10] , player reward 1 
     
-     player hand [7, 6, 10], dealer hand [5, 3] , player reward -1 
+     player hand [7, 10, 10], dealer hand [1, 8] , player reward -1 
     
-     player hand [10, 7, 1, 8], dealer hand [9, 2] , player reward -1 
+     player hand [10, 5, 4, 2], dealer hand [10, 8] , player reward 1 
     
-     player hand [10, 10], dealer hand [5, 8, 2, 3] , player reward 1 
+     player hand [10, 5, 9], dealer hand [7, 5] , player reward -1 
     
-     player hand [1, 10], dealer hand [10, 9] , player reward 1 
+     player hand [8, 8, 6], dealer hand [10, 10] , player reward -1 
     
-     player hand [6, 2, 7, 10], dealer hand [4, 2] , player reward -1 
+     player hand [10, 10], dealer hand [1, 1, 10, 5, 5] , player reward 1 
     
-     player hand [6, 9, 5], dealer hand [7, 2, 10] , player reward 1 
+     player hand [5, 6, 6, 2, 3], dealer hand [10, 9] , player reward -1 
     
-     player hand [10, 1], dealer hand [9, 4, 1, 4] , player reward 1 
+     player hand [3, 6, 10, 10], dealer hand [8, 9] , player reward -1 
     
-     player hand [3, 10, 9], dealer hand [2, 3] , player reward -1 
+     player hand [2, 7, 4, 5, 6], dealer hand [10, 4] , player reward -1 
     
-     player hand [8, 10, 10], dealer hand [2, 2] , player reward -1 
+     player hand [5, 3, 4, 6, 10], dealer hand [8, 2] , player reward -1 
     
-     player hand [10, 10], dealer hand [10, 1] , player reward -1 
+     player hand [3, 9, 10], dealer hand [4, 9] , player reward -1 
     
-     player hand [8, 10, 10], dealer hand [3, 7] , player reward -1 
+     player hand [4, 10, 5, 7], dealer hand [9, 5] , player reward -1 
     
-     player hand [7, 7, 6], dealer hand [10, 9] , player reward 1 
+     player hand [4, 10, 3, 10], dealer hand [6, 10] , player reward -1 
     
-     player hand [10, 1], dealer hand [8, 1] , player reward 1 
+     player hand [8, 8, 7], dealer hand [4, 2] , player reward -1 
     
-     player hand [10, 10], dealer hand [6, 8, 10] , player reward 1 
+     player hand [3, 10, 10], dealer hand [2, 10] , player reward -1 
     
-     player hand [10, 10], dealer hand [3, 3, 4, 6, 8] , player reward 1 
+     player hand [10, 10], dealer hand [10, 2, 7] , player reward 1 
     
-     player hand [7, 10, 8], dealer hand [1, 5] , player reward -1 
+     player hand [7, 10, 5], dealer hand [10, 7] , player reward -1 
     
-     player hand [5, 10, 10], dealer hand [5, 2] , player reward -1 
+     player hand [5, 10, 4, 8], dealer hand [2, 10] , player reward -1 
     
-     player hand [9, 4, 5, 10], dealer hand [9, 8] , player reward -1 
+     player hand [10, 2, 4, 9], dealer hand [1, 10] , player reward -1 
     
-     player hand [6, 10, 1, 7], dealer hand [10, 6] , player reward -1 
+     player hand [10, 1], dealer hand [3, 8, 10] , player reward 0 
     
-     player hand [10, 5, 7], dealer hand [10, 6] , player reward -1 
+     player hand [10, 9, 1], dealer hand [4, 3, 10, 6] , player reward 1 
     
-     player hand [4, 3, 10, 6], dealer hand [10, 1] , player reward -1 
+     player hand [10, 9, 10], dealer hand [10, 8] , player reward -1 
     
-     player hand [10, 4, 1, 3, 2], dealer hand [9, 3, 6] , player reward 1 
+     player hand [1, 10], dealer hand [4, 10, 7] , player reward 0 
     
-     player hand [1, 7, 8, 8], dealer hand [9, 4] , player reward -1 
+     player hand [10, 5, 8], dealer hand [1, 8] , player reward -1 
     
-     player hand [5, 2, 6, 7], dealer hand [1, 6, 10, 5] , player reward 1 
-    
-     player hand [10, 9, 3], dealer hand [2, 8] , player reward -1 
-    
-     player hand [3, 6, 7, 8], dealer hand [10, 10] , player reward -1 
-    
-     player hand [5, 2, 9, 10], dealer hand [10, 5] , player reward -1 
-    
-     player hand [3, 10, 10], dealer hand [10, 8] , player reward -1 
-    
-     player hand [7, 4, 3, 3, 10], dealer hand [10, 10] , player reward -1 
-    
-     player hand [10, 5, 2, 1, 1, 5], dealer hand [3, 4] , player reward -1 
-    
-     player hand [3, 6, 4, 6, 9], dealer hand [8, 8] , player reward -1 
-    
-     player hand [10, 8, 10], dealer hand [6, 9] , player reward -1 
-    
-     player hand [5, 7, 8], dealer hand [5, 1, 10, 10] , player reward 1 
-    
-     player hand [3, 8, 6, 9], dealer hand [10, 5] , player reward -1 
-    
-     player hand [4, 7, 10], dealer hand [7, 8, 8] , player reward 1 
-    
-     player hand [8, 1, 10, 7], dealer hand [1, 10] , player reward -1 
-    
-     player hand [10, 5, 5], dealer hand [5, 1, 10, 4] , player reward 0 
-    
-     player hand [5, 10, 2, 10], dealer hand [7, 9] , player reward -1 
-    
-     player hand [2, 1, 1, 6], dealer hand [7, 4, 10] , player reward -1 
-    
-     player hand [9, 7, 10], dealer hand [5, 9] , player reward -1 
-    
-     player hand [5, 4, 10, 10], dealer hand [4, 2] , player reward -1 
-    
-     player hand [2, 10, 5, 10], dealer hand [1, 1] , player reward -1 
-    
-     player hand [10, 2, 6, 10], dealer hand [10, 6] , player reward -1 
-    
-     player hand [10, 5, 6], dealer hand [10, 10] , player reward 1 
-    
-     player hand [9, 10, 2], dealer hand [1, 2, 10, 4, 5] , player reward 1 
-    
-     player hand [10, 5, 10], dealer hand [1, 6] , player reward -1 
-    
-     player hand [10, 2, 6, 3], dealer hand [10, 10] , player reward 1 
-    
-     player hand [2, 1, 1, 9, 6, 10], dealer hand [8, 6] , player reward -1 
-    
-     player hand [1, 10], dealer hand [8, 7, 3] , player reward 1 
-    
-     player hand [10, 7, 10], dealer hand [7, 8] , player reward -1 
-    
-     player hand [10, 10], dealer hand [6, 10, 1, 10] , player reward 1 
-    
-     player hand [7, 4, 9], dealer hand [5, 3, 7, 10] , player reward 1 
-    
-     player hand [3, 1, 4, 7, 10], dealer hand [2, 8] , player reward -1 
-    
-     player hand [8, 7, 10], dealer hand [10, 10] , player reward -1 
-    
-     player hand [9, 10, 5], dealer hand [8, 9] , player reward -1 
-    
-     player hand [10, 10], dealer hand [4, 10, 7] , player reward -1 
-    
-     player hand [7, 1, 10, 7], dealer hand [5, 6] , player reward -1 
-    
-     player hand [10, 10], dealer hand [7, 4, 10] , player reward -1 
-    
-     player hand [9, 10, 3], dealer hand [7, 5] , player reward -1 
-    
-     player hand [1, 2, 3, 10, 1, 10], dealer hand [2, 8] , player reward -1 
-    
-     player hand [10, 5, 7], dealer hand [6, 2] , player reward -1 
-    
-     player hand [4, 6, 10], dealer hand [4, 1, 8, 6] , player reward 1 
-    
-     player hand [7, 3, 7, 4], dealer hand [8, 10] , player reward 1 
-    
-     player hand [4, 9, 9], dealer hand [2, 9] , player reward -1 
-    
-     player hand [6, 1, 1, 7, 5], dealer hand [4, 8, 3, 5] , player reward 0 
-    
-     player hand [10, 10], dealer hand [3, 9, 9] , player reward -1 
-    
-     player hand [3, 6, 10, 10], dealer hand [1, 5] , player reward -1 
-    
-     player hand [7, 10, 4], dealer hand [8, 10] , player reward 1 
-    
-     player hand [6, 10, 10], dealer hand [8, 3] , player reward -1 
-    
-     player hand [1, 10], dealer hand [10, 9] , player reward 1 
-    
-     player hand [9, 8, 4], dealer hand [8, 9, 3] , player reward 1 
-    
-     player hand [1, 10], dealer hand [6, 2, 7, 4] , player reward 1 
+     player hand [3, 10, 7], dealer hand [10, 1] , player reward -1 
     
      player hand [10, 10], dealer hand [2, 10, 10] , player reward 1 
     
-     player hand [7, 8, 9], dealer hand [8, 7] , player reward -1 
+     player hand [3, 6, 1], dealer hand [7, 2, 4, 10] , player reward 1 
     
-     player hand [3, 10, 6, 10], dealer hand [1, 4] , player reward -1 
+     player hand [10, 4, 10], dealer hand [1, 8] , player reward -1 
     
-     player hand [7, 10, 2, 5], dealer hand [8, 8] , player reward -1 
+     player hand [10, 4, 10], dealer hand [2, 6] , player reward -1 
     
-     player hand [3, 1, 8, 7, 5], dealer hand [10, 3] , player reward -1 
+     player hand [10, 10], dealer hand [2, 1, 2, 4] , player reward 1 
     
-     player hand [10, 8, 3], dealer hand [10, 10] , player reward 1 
+     player hand [7, 7, 9], dealer hand [10, 1] , player reward -1 
     
-     player hand [10, 9, 10], dealer hand [5, 10] , player reward -1 
+     player hand [10, 7, 5], dealer hand [10, 10] , player reward -1 
     
-     player hand [2, 1, 1, 7], dealer hand [1, 3, 6] , player reward 1 
+     player hand [10, 1], dealer hand [10, 10] , player reward 1 
     
-     player hand [10, 6, 8], dealer hand [10, 7] , player reward -1 
+     player hand [3, 1, 8, 10], dealer hand [10, 7] , player reward -1 
     
-     player hand [2, 10, 4, 9], dealer hand [3, 10] , player reward -1 
+     player hand [10, 10], dealer hand [5, 1, 5] , player reward -1 
     
-     player hand [2, 10, 8], dealer hand [4, 6, 10] , player reward 0 
+     player hand [5, 4, 10, 2], dealer hand [5, 6, 8] , player reward 1 
     
-     player hand [10, 4, 4, 6], dealer hand [10, 6] , player reward -1 
+     player hand [8, 10, 5], dealer hand [4, 3] , player reward -1 
     
-     player hand [10, 8, 3], dealer hand [9, 8, 1] , player reward 1 
+     player hand [10, 6, 7], dealer hand [1, 2] , player reward -1 
     
-     player hand [7, 10, 1, 8], dealer hand [6, 10] , player reward -1 
+     player hand [8, 3, 9], dealer hand [4, 10, 10] , player reward 1 
     
-     player hand [8, 3, 2, 8], dealer hand [4, 6, 7, 8] , player reward 1 
+     player hand [6, 5, 2, 9], dealer hand [1, 10] , player reward -1 
     
-     player hand [8, 1, 5, 8], dealer hand [10, 3] , player reward -1 
+     player hand [4, 1, 7, 10], dealer hand [9, 5] , player reward -1 
     
-     player hand [5, 10, 3, 3], dealer hand [2, 10, 6] , player reward 1 
-    
-     player hand [7, 4, 7, 6], dealer hand [8, 10] , player reward -1 
-    
-     player hand [10, 10], dealer hand [9, 5, 6] , player reward 0 
-    
-     player hand [9, 9, 5], dealer hand [4, 2] , player reward -1 
-    
-     player hand [10, 10], dealer hand [4, 1, 2, 8, 7] , player reward 1 
-    
-     player hand [8, 9, 4], dealer hand [5, 6, 10] , player reward 0 
-    
-     player hand [2, 5, 1, 9, 5], dealer hand [1, 10] , player reward -1 
-    
-     player hand [5, 9, 7], dealer hand [7, 10, 9] , player reward 1 
+     player hand [10, 10], dealer hand [8, 9, 10] , player reward 1 
     
      player hand [7, 5, 10], dealer hand [10, 9] , player reward -1 
     
-     player hand [8, 2, 5, 9], dealer hand [10, 10] , player reward -1 
+     player hand [3, 10, 5, 7], dealer hand [4, 1] , player reward -1 
     
-     player hand [2, 10, 10], dealer hand [5, 5] , player reward -1 
+     player hand [10, 10], dealer hand [7, 8, 4] , player reward 1 
     
-     player hand [2, 5, 4, 10], dealer hand [5, 3, 10] , player reward 1 
+     player hand [1, 7, 3], dealer hand [10, 3, 10] , player reward 1 
     
-     player hand [10, 10], dealer hand [8, 10] , player reward 1 
+     player hand [4, 2, 6, 8], dealer hand [10, 9] , player reward 1 
     
-     player hand [10, 2, 5, 3], dealer hand [5, 10, 10] , player reward 1 
+     player hand [7, 8, 1, 6], dealer hand [7, 10] , player reward -1 
     
-     player hand [9, 4, 5, 5], dealer hand [5, 9] , player reward -1 
+     player hand [5, 5, 9, 2], dealer hand [7, 10, 10] , player reward 1 
     
-     player hand [1, 8, 2], dealer hand [5, 9, 7] , player reward 0 
+     player hand [1, 6, 10, 5], dealer hand [7, 8] , player reward -1 
+    
+     player hand [7, 4, 5, 10], dealer hand [10, 1] , player reward -1 
+    
+     player hand [9, 2, 10], dealer hand [10, 4, 10] , player reward 1 
+    
+     player hand [1, 10], dealer hand [5, 4, 10] , player reward 1 
+    
+     player hand [10, 10], dealer hand [10, 10] , player reward 0 
+    
+     player hand [10, 10], dealer hand [4, 3, 10, 7] , player reward 1 
+    
+     player hand [6, 2, 5, 10], dealer hand [10, 10] , player reward -1 
+    
+     player hand [4, 10, 4, 2], dealer hand [5, 10, 3] , player reward 1 
+    
+     player hand [10, 4, 10], dealer hand [1, 3] , player reward -1 
+    
+     player hand [1, 4, 1, 10, 10], dealer hand [7, 1] , player reward -1 
+    
+     player hand [10, 3, 9], dealer hand [6, 9] , player reward -1 
+    
+     player hand [4, 5, 6, 10], dealer hand [10, 6] , player reward -1 
+    
+     player hand [8, 9, 7], dealer hand [8, 10] , player reward -1 
+    
+     player hand [5, 8, 10], dealer hand [4, 2] , player reward -1 
+    
+     player hand [7, 6, 9], dealer hand [10, 6] , player reward -1 
+    
+     player hand [8, 7, 3, 4], dealer hand [5, 10] , player reward -1 
+    
+     player hand [10, 5, 1, 2, 6], dealer hand [3, 6] , player reward -1 
+    
+     player hand [6, 2, 1, 10, 1], dealer hand [1, 6, 10, 3] , player reward 0 
+    
+     player hand [1, 9], dealer hand [7, 2, 5, 8] , player reward 1 
+    
+     player hand [10, 5, 10], dealer hand [10, 9] , player reward -1 
+    
+     player hand [10, 10], dealer hand [8, 5, 10] , player reward 1 
+    
+     player hand [4, 8, 10], dealer hand [6, 10] , player reward -1 
+    
+     player hand [1, 4, 9, 7], dealer hand [7, 10, 10] , player reward 1 
+    
+     player hand [5, 10, 1, 10], dealer hand [3, 10] , player reward -1 
+    
+     player hand [6, 10, 10], dealer hand [10, 1] , player reward -1 
+    
+     player hand [6, 8, 7], dealer hand [7, 8, 5] , player reward 1 
+    
+     player hand [5, 3, 6, 5, 8], dealer hand [10, 10] , player reward -1 
+    
+     player hand [4, 8, 7, 10], dealer hand [6, 10] , player reward -1 
+    
+     player hand [6, 8, 5, 3], dealer hand [10, 2] , player reward -1 
+    
+     player hand [5, 2, 7, 2, 5], dealer hand [10, 8] , player reward 1 
+    
+     player hand [8, 6, 10], dealer hand [9, 10] , player reward -1 
+    
+     player hand [1, 6, 2, 2], dealer hand [10, 8] , player reward 1 
+    
+     player hand [1, 1, 10, 5, 10], dealer hand [2, 6] , player reward -1 
+    
+     player hand [10, 10], dealer hand [2, 8, 10] , player reward 0 
+    
+     player hand [10, 3, 1, 10], dealer hand [10, 7] , player reward -1 
+    
+     player hand [2, 10, 10], dealer hand [8, 6] , player reward -1 
+    
+     player hand [10, 10], dealer hand [9, 9] , player reward 1 
+    
+     player hand [1, 7, 5, 6, 9], dealer hand [1, 10] , player reward -1 
+    
+     player hand [1, 10], dealer hand [5, 8, 4, 2] , player reward 1 
+    
+     player hand [7, 8, 10], dealer hand [10, 4] , player reward -1 
+    
+     player hand [2, 8, 10], dealer hand [3, 10, 8] , player reward -1 
+    
+     player hand [7, 6, 3, 3, 1], dealer hand [5, 2, 1] , player reward 1 
+    
+     player hand [10, 6, 1, 6], dealer hand [5, 1] , player reward -1 
+    
+     player hand [1, 2, 8], dealer hand [8, 6, 4] , player reward 1 
+    
+     player hand [3, 5, 9, 5], dealer hand [8, 7] , player reward -1 
+    
+     player hand [9, 10, 3], dealer hand [10, 3] , player reward -1 
+    
+     player hand [9, 6, 2, 6], dealer hand [10, 5] , player reward -1 
+    
+     player hand [10, 10], dealer hand [6, 2, 7, 8] , player reward 1 
+    
+     player hand [4, 1, 6], dealer hand [3, 10, 5] , player reward 1 
+    
+     player hand [10, 7, 7], dealer hand [6, 10] , player reward -1 
+    
+     player hand [8, 4, 4, 6], dealer hand [9, 3] , player reward -1 
+    
+     player hand [4, 6, 10], dealer hand [7, 4, 10] , player reward -1 
+    
+     player hand [4, 7, 10], dealer hand [2, 10, 6] , player reward 1 
+    
+     player hand [10, 10], dealer hand [9, 3, 8] , player reward 0 
+    
+     player hand [5, 6, 7, 7], dealer hand [1, 2] , player reward -1 
+    
+     player hand [2, 6, 10, 10], dealer hand [1, 10] , player reward -1 
     
 
 
@@ -823,7 +823,13 @@ ModelFreeOnlineControl means the update at every time step, for the current step
 for the current and previous steps TD(λ) 
 """
 class ModelFreeOnlineControl(object):
-    def __init__(self, iteration, lambda_val=1, discount_rate = 1 , learning_rate = 1, simulation = start_black_jack_simulation, exploration_rate = 0.1):
+    def __init__(self, iteration, lambda_val=1,
+                 discount_rate = 1 , learning_rate = 1, 
+                 simulation = start_black_jack_simulation, 
+                 exploration_rate = 0.1):
+        
+        
+        
         self.iteration = iteration
         self.simulation = simulation
         self.discount_rate = discount_rate
@@ -872,14 +878,19 @@ class ModelFreeOnlineControl(object):
      1. not use eligibility trace-> within a episode, each time step(state) update only the Q value(state-action value) of current time step(state)  
      2. use eligibility trace-> within a episode, each time step(state) update the current Q value, and the previous time steps' Q value using eligibility trace
     """
-    def _SARSA_simulate_states_action_from_current_epo(self,sim,
-                                                 observed_state,
-                                                 action,done,
-                                                 states_actions_value, # Q(S,A) state-action value
-                                                 states_actions_count, # inverse of learning rate, decay over time 
-                                                 backward_update = True):
+    def _SARSA_simulate_states_action_from_current_epo(  self,sim,
+                                                         observed_state,
+                                                         action,done,
+                                                         states_actions_value, # Q(S,A) state-action value
+                                                         states_actions_count, # inverse of learning rate, decay over time 
+                                                         backward_update = True):
         # use elibigility trace
         if backward_update: state_action_elgb = defaultdict(float)
+        """ 
+        use record the new result, this prevent the mutation of states_actions_value at each time step(state)
+        this is important because without it mutation of a state might alredy effect before a time step(state) is ended
+        and this will result incorrect result 
+        """
         new_states_actions_value = {}
         while not done:
             if observed_state not in states_actions_value: 
@@ -990,17 +1001,11 @@ class ModelFreeOnlineControl(object):
         return states_actions_value      
 ```
 
-    
-
-
 
 ```python
 res2 = ModelFreeOnlineControl(5000000)
 res2 = res2.start_SARSA()
-```
 
-
-```python
 res3 = ModelFreeOnlineControl(5000000)
 res3 = res3.start_Q_learning()
 ```
@@ -1016,11 +1021,11 @@ plotting.plot_value_function(v2, title="SARSA Optimal Value Function")
 ```
 
 
-![png](output_18_0.png)
+![png](output_17_0.png)
 
 
 
-![png](output_18_1.png)
+![png](output_17_1.png)
 
 
 
@@ -1030,15 +1035,15 @@ sum_val = 0
 for itm in res1.items():
     state, val = itm
     err_mc_vs_TD[state] = (max(val.iteritems(), key=operator.itemgetter(1))[1] - max(res2[state].iteritems(), key=operator.itemgetter(1))[1])
-plotting.plot_value_function(err, title="mc vs TD err")
+plotting.plot_value_function(err_mc_vs_TD, title="mc vs TD err")
 ```
 
 
-![png](output_19_0.png)
+![png](output_18_0.png)
 
 
 
-![png](output_19_1.png)
+![png](output_18_1.png)
 
 
 
@@ -1052,11 +1057,11 @@ plotting.plot_value_function(v3, title="Q Learing Optimal Value Function")
 ```
 
 
-![png](output_20_0.png)
+![png](output_19_0.png)
 
 
 
-![png](output_20_1.png)
+![png](output_19_1.png)
 
 
 
@@ -1066,13 +1071,13 @@ sum_val = 0
 for itm in res1.items():
     state, val = itm
     err_MC_vs_Q[state] = (max(val.iteritems(), key=operator.itemgetter(1))[1] - max(res3[state].iteritems(), key=operator.itemgetter(1))[1])
-plotting.plot_value_function(err, title="mc vs TD err")
+plotting.plot_value_function(err_MC_vs_Q, title="mc vs TD err")
 ```
 
 
-![png](output_21_0.png)
+![png](output_20_0.png)
 
 
 
-![png](output_21_1.png)
+![png](output_20_1.png)
 
